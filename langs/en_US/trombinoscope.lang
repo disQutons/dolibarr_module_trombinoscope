@@ -1,0 +1,64 @@
+# Translation file
+#
+
+#
+# Generic
+#
+ModuleTrombinoscopeName = Trombinoscope
+TrombinoscopeDescription = Photo directory of users and/or members, using their Dolibarr photos
+TrombinoscopeDescriptionLong = Displays a photo directory (trombinoscope) of users and/or members based on the photos already stored in Dolibarr, with the fields of your choice and newcomers highlighted.
+Permission17332701 = View the trombinoscope
+Trombinoscope = Trombinoscope
+TrombinoscopePeople = people
+TrombinoscopeBoxNewcomers = Newcomers
+
+#
+# Trombinoscope page
+#
+TrombinoscopeSearch = Search (name, email, town…)
+TrombinoscopeLegend = Legend
+TrombinoscopeLessThan = Joined less than %s months ago
+TrombinoscopeMoreThan = Joined more than %s months ago
+TrombinoscopeNobody = Nobody to display. Check the module setup.
+TrombinoscopeNoResult = Nobody matches your search.
+
+#
+# Admin page
+#
+TrombinoscopeSetup = Trombinoscope setup
+Settings = Settings
+About = About
+TrombinoscopeSetupPage = Choose who is displayed in the trombinoscope, the information shown on each card and how newcomers are highlighted.
+TrombinoscopeShow = View the trombinoscope
+TrombinoscopeSetupPeopleTitle = Displayed people
+TROMBINOSCOPE_SOURCE = People source
+TROMBINOSCOPE_SOURCETooltip = Users: active internal users. Members: validated members (natural persons). Missing information and photo are completed from the linked record (member ↔ user).
+TrombinoscopeSourceUser = Users
+TrombinoscopeSourceMember = Members
+TROMBINOSCOPE_USERS_ONLY_MEMBERS = Users: only those linked to a member
+TROMBINOSCOPE_USERS_ONLY_MEMBERSTooltip = Only applies to the Users source: only users linked to a validated member are displayed.
+TROMBINOSCOPE_MEMBER_TYPES = Members: filter by type
+TROMBINOSCOPE_MEMBER_TYPESTooltip = Only applies to the Members source. Leave empty to display all types.
+TROMBINOSCOPE_USER_GROUPS = Users: filter by group
+TROMBINOSCOPE_USER_GROUPSTooltip = Only applies to the Users source. Leave empty to display all users.
+TrombinoscopeSetupDisplayTitle = Display
+TROMBINOSCOPE_PEOPLE_LABEL = People label
+TROMBINOSCOPE_PEOPLE_LABELTooltip = Word displayed in the title next to the number of people (e.g. volunteers, employees, members).
+TROMBINOSCOPE_FIELDS = Displayed information
+TROMBINOSCOPE_FIELDSTooltip = Fields displayed below the name. Complementary attributes of members and users are available.
+TROMBINOSCOPE_SORT = Sort order
+TROMBINOSCOPE_PHOTO_RATIO = Photo format
+TROMBINOSCOPE_PHOTO_RATIOTooltip = Photos are cropped around their center to the chosen format. "Original proportions" keeps photos as they are.
+TrombinoscopeRatioSquare = Square (1:1)
+TrombinoscopeRatioPortrait = Portrait (3:4)
+TrombinoscopeRatioLandscape = Landscape (4:3)
+TrombinoscopeRatioWide = Wide (2:1)
+TrombinoscopeRatioAuto = Original proportions
+TROMBINOSCOPE_CARD_WIDTH = Minimum card width (px)
+TROMBINOSCOPE_CARD_WIDTHTooltip = Between 100 and 400 pixels. The number of columns adapts to the screen width.
+TrombinoscopeSetupNewTitle = Newcomers
+TROMBINOSCOPE_NEW_DURATION = "New" duration (months)
+TROMBINOSCOPE_NEW_DURATIONTooltip = A person who joined less than this number of months ago is highlighted (creation date of their record). 0 = disabled.
+TROMBINOSCOPE_COLOR_MAIN = Main color (first name)
+TROMBINOSCOPE_COLOR_NEW = Newcomers color
+TROMBINOSCOPE_COLOR_OLD = Long-standing color

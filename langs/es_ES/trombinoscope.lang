@@ -1,0 +1,64 @@
+# Translation file
+#
+
+#
+# Generic
+#
+ModuleTrombinoscopeName = Trombinoscopio
+TrombinoscopeDescription = Directorio fotográfico de usuarios y/o miembros, con sus fotos de Dolibarr
+TrombinoscopeDescriptionLong = Muestra un directorio fotográfico (trombinoscopio) de usuarios y/o miembros a partir de las fotos ya guardadas en Dolibarr, con los campos que elija y los recién llegados destacados.
+Permission17332701 = Ver el trombinoscopio
+Trombinoscope = Trombinoscopio
+TrombinoscopePeople = personas
+TrombinoscopeBoxNewcomers = Recién llegados
+
+#
+# Trombinoscope page
+#
+TrombinoscopeSearch = Buscar (nombre, e-mail, ciudad…)
+TrombinoscopeLegend = Leyenda
+TrombinoscopeLessThan = Llegó hace menos de %s meses
+TrombinoscopeMoreThan = Llegó hace más de %s meses
+TrombinoscopeNobody = No hay personas que mostrar. Compruebe la configuración del módulo.
+TrombinoscopeNoResult = Ninguna persona coincide con la búsqueda.
+
+#
+# Admin page
+#
+TrombinoscopeSetup = Configuración del módulo Trombinoscopio
+Settings = Parámetros
+About = Acerca de
+TrombinoscopeSetupPage = Elija las personas mostradas en el trombinoscopio, la información visible en cada ficha y cómo se destacan los recién llegados.
+TrombinoscopeShow = Ver el trombinoscopio
+TrombinoscopeSetupPeopleTitle = Personas mostradas
+TROMBINOSCOPE_SOURCE = Origen de las personas
+TROMBINOSCOPE_SOURCETooltip = Usuarios: usuarios internos activos. Miembros: miembros validados (personas físicas). La información y la foto que falten se completan con la ficha vinculada (miembro ↔ usuario).
+TrombinoscopeSourceUser = Usuarios
+TrombinoscopeSourceMember = Miembros
+TROMBINOSCOPE_USERS_ONLY_MEMBERS = Usuarios: solo los vinculados a un miembro
+TROMBINOSCOPE_USERS_ONLY_MEMBERSTooltip = Solo se aplica al origen Usuarios: solo se muestran los usuarios vinculados a un miembro validado.
+TROMBINOSCOPE_MEMBER_TYPES = Miembros: filtrar por tipo
+TROMBINOSCOPE_MEMBER_TYPESTooltip = Solo se aplica al origen Miembros. Dejar vacío para mostrar todos los tipos.
+TROMBINOSCOPE_USER_GROUPS = Usuarios: filtrar por grupo
+TROMBINOSCOPE_USER_GROUPSTooltip = Solo se aplica al origen Usuarios. Dejar vacío para mostrar todos los usuarios.
+TrombinoscopeSetupDisplayTitle = Visualización
+TROMBINOSCOPE_PEOPLE_LABEL = Etiqueta de las personas
+TROMBINOSCOPE_PEOPLE_LABELTooltip = Palabra mostrada en el título junto al número de personas (p. ej. voluntarios, empleados, miembros).
+TROMBINOSCOPE_FIELDS = Información mostrada
+TROMBINOSCOPE_FIELDSTooltip = Campos mostrados debajo del nombre. Se proponen los atributos complementarios de miembros y usuarios.
+TROMBINOSCOPE_SORT = Orden
+TROMBINOSCOPE_PHOTO_RATIO = Formato de las fotos
+TROMBINOSCOPE_PHOTO_RATIOTooltip = Las fotos se recortan por el centro según el formato elegido. «Proporciones originales» deja las fotos tal cual.
+TrombinoscopeRatioSquare = Cuadrado (1:1)
+TrombinoscopeRatioPortrait = Vertical (3:4)
+TrombinoscopeRatioLandscape = Horizontal (4:3)
+TrombinoscopeRatioWide = Panorámico (2:1)
+TrombinoscopeRatioAuto = Proporciones originales
+TROMBINOSCOPE_CARD_WIDTH = Ancho mínimo de una ficha (px)
+TROMBINOSCOPE_CARD_WIDTHTooltip = Entre 100 y 400 píxeles. El número de columnas se adapta al ancho de la pantalla.
+TrombinoscopeSetupNewTitle = Recién llegados
+TROMBINOSCOPE_NEW_DURATION = Duración «nuevo» (meses)
+TROMBINOSCOPE_NEW_DURATIONTooltip = Una persona que llegó hace menos de este número de meses se destaca (fecha de creación de su ficha). 0 = desactivado.
+TROMBINOSCOPE_COLOR_MAIN = Color principal (nombre)
+TROMBINOSCOPE_COLOR_NEW = Color de los recién llegados
+TROMBINOSCOPE_COLOR_OLD = Color de los veteranos
