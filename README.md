@@ -8,13 +8,14 @@ Module affichant un trombinoscope de votre structure à partir des photos déjà
 - Mise en avant des nouveaux arrivants avec des couleurs personnalisables
 - Recherche instantanée dans la page
 - Widget « Nouveaux arrivants » pour la page d'accueil
-- Photos servies par Dolibarr lui-même, en vignettes et avec cache du navigateur : affichage rapide même avec plusieurs centaines de personnes
-- S'intègre automatiquement au menu du module Intranet s'il est installé, sinon dispose de son propre menu
 
 ## Installation
-Vous pouvez copier ces fichiers directement dans le dossier custom/trombinoscope de votre Dolibarr. Vous pouvez également télécharger la dernière release disponible sur Dolistore.
+Vous pouvez copier ces fichiers, directement dans le dossier custom/subventions de votre Dolibarr. Vous aurez ainsi la version la plus à jour.
+Vous pouvez également télécharger la dernière release disponible sur [Dolistore](https://www.dolistore.com/)
 
-Activez ensuite le module, donnez le droit « Voir le trombinoscope » aux utilisateurs ou groupes concernés, puis réglez le module depuis sa page de configuration.
+## Captures d'écrans
+![Module_trombinoscope_image1](img/readme_screenshot1.png)
+![Module_trombinoscope_image2](img/readme_screenshot2.png)
 
 ## Nous soutenir
 Nous avons consacré du temps bénévole pour créer un module utile à tous. Si vous souhaitez soutenir notre association et nous aider à développer de nouveaux modules, n’hésitez pas à nous encourager :
